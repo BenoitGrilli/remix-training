@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					}
+				],
+				"name": "setBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/boolTest.sol": "boolTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/boolTest.sol": {
+			"keccak256": "0xba7399630cd029cc4a27f2cd892587cfeb12121b2830e0c7f69a37e2cedaf3b2",
+			"urls": [
+				"bzz-raw://f3cb296d28b48c684f9ccfb1addfda0a09b3d55942c3be5746d6cb5a5b52a223",
+				"dweb:/ipfs/QmREdCpaCp4ChUaHfd6nmPSqv6piwdnPykjjUMttnjRrRz"
+			]
+		}
+	},
+	"version": 1
+}
